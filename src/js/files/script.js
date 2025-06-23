@@ -1,9 +1,3 @@
-// Подключение функционала "Чертогов Фрилансера"
-import { isMobile } from "./functions.js";
-// Подключение списка активных модулей
-import { flsModules } from "./modules.js";
-
-
 //VIDEO
 
 const myVideo = document.getElementById("video");
@@ -19,7 +13,7 @@ myVideo.addEventListener('click', function () {
 //TIMER//
 
 document.addEventListener('DOMContentLoaded', () => {
-	const newYear = new Date('June 30 2024 00:00:00');
+	const newYear = new Date('June 30 2025 00:00:00');
 
 	const daysVal = document.querySelector('.time-count__days .time-count__val');
 	const hoursVal = document.querySelector('.time-count__hours .time-count__val');
